@@ -2,7 +2,7 @@
 
 void wypiszMacSas()
 {
-    cout << "Wypisywanie macierzy sasiectwa:" << endl;
+    cout << "Wypisywanie macierzy sasiectwa: " << endl;
     for(int i=0; i<v; i++)
     {
         for(int j=0; j<v; j++)
@@ -13,7 +13,7 @@ void wypiszMacSas()
 
 void wypiszLisNast()
 {
-    cout << "Wypisywanie listy nastepnikow:" << endl;
+    cout << "Wypisywanie listy nastepnikow: " << endl;
     for(int i=0; i<v; i++)
     {
         cout << i+1;
@@ -29,7 +29,7 @@ void wypiszLisNast()
 
 void wypiszMacGrafu()
 {
-    cout << "Wypisywanie macierzy grafu:" << endl;
+    cout << "Wypisywanie macierzy grafu: " << endl;
     for(int i=0; i<v; i++)
     {
         for(int j=0; j<v+3; j++)
